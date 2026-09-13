@@ -7,7 +7,6 @@ and reading as well.
 
 Welcome to my Data Science Studio Portfolio. 
 This website will document my learning and projects throughout the semester.
-<a href="NV_Resume.pdf" target="_blank">Resume</a>
 ---
 ## Portfolio
 - [Blog](blog.md)
