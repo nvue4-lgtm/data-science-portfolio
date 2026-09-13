@@ -2,4 +2,5 @@
 This section documents my data science projects, research questions, and data stories I create throughout the semesters.
 ---
 ## Project 1
-Coming soon.
+Poverty and Fertility Analysis
+https://github.com/nvue4-lgtm/poverty-fertility-analysis/blob/main/ResearchProject.ipynb
