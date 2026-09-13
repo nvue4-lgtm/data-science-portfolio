@@ -1,6 +1,7 @@
 Nouchee Vue
 Data Science Student
 UNC Charlotte
+- <a href="NV_Resume.pdf" target="_blank">Resume</a>
 
 I am currently a junior studying for a B.S. in Data Science at UNC Charlotte. I enjoy my time exploring new crafting hobbies
 and reading as well.
