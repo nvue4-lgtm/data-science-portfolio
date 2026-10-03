@@ -40,18 +40,11 @@ This project explores whether information about a makeup brand's foundation shad
 Can characteristics of a makeup brand's foundation shade lineup help predict whether the brand has an inclusive range of deeper shades?
 
 # Background and Context
-Foundation shade inclusivity has become an important topic in the beauty industry. For many years, individuals with deeper skin tones had significantly fewer foundation options compared to those with lighter skin tones. Even when a brand offers a large number of shades, it doesn't always mean that the range is evenly distributed across light, medium, and deep skin tones. Abelman and Dall’Asen (2020) discussed how some makeup brands have expanded their foundation shade ranges to provide more options for a diverse array of skin tones. Similarly, Sinks (2018) explained how drugstores and beauty brands have faced pressure to offer more products specifically tailored for individuals with deeper complexions.
+Foundation shade inclusivity has become a significant topic in the beauty industry. Some brands may offer a wide range of foundation shades but still provide limited options for individuals with deeper skin tones. Allure has pointed out that a large number of shades does not necessarily mean that the distribution is equitable across different skin tones. It has also highlighted brands that offer more comprehensive shade ranges (Abelman & Dall'Asen, 2020).
 
-This issue is crucial because foundation is meant to closely match a person’s skin tone, and a limited shade range can make it challenging for some customers to find an appropriate match. As beauty companies continue to expand their shade selections, it is essential to evaluate whether these ranges are genuinely broad and balanced. This project examines foundation shade data across various brands, analyzing factors such as shade lightness, shade count, and other brand-level characteristics to predict whether a brand offers a relatively inclusive range of deeper shades. The goal is to utilize machine learning to explore patterns in foundation shade diversity rather than to establish a final or universal definition of inclusivity.
+Access to these shades is another important issue. Sinks (2018) noted that while deeper foundation shades may be advertised by brands, they can still be difficult to find in physical drugstores. The launch of Fenty Beauty, which introduced 40 foundation shades, brought significant attention to shade inclusivity by emphasizing the creation of products for a wide variety of skin tones (Lang, 2017).
 
-Sources: 
-Abelman, D., & Dall’Asen, N. (2020, June 28). *21 makeup brands that have the most inclusive foundation shade ranges*. Allure. https://www.allure.com/gallery/makeup-brands-wide-foundation-shade-ranges
-
-Sinks, T. (2018, November 10). *What are drugstores doing to factor inclusivity into their makeup aisles?* Allure. https://www.allure.com/story/drugstore-foundation-range-inclusivity-in-the-makeup-aisle
-
-The target variable is:
-- 0 = not inclusive
-- 1 = inclusive
+These concerns motivated me to analyze makeup shade data across various brands and utilize machine learning to explore patterns related to the representation of deeper shades.
 
 # Dataset
 The dataset comes from the Kaggle Makeup Shades Dataset.
@@ -90,4 +83,39 @@ Random Forest - 0.889
 In a 5-fold cross-validation analysis, Logistic Regression achieved an average F1 score of approximately 0.971, while Random Forest had an average F1 score of around 0.921. Both machine learning models outperformed the baseline, with Logistic Regression yielding the strongest results in this comparison.
 
 # Visualizations
+![Model Performance](images/model_performance.png)
+This graph compares the baseline with logistic regression and random forest. Both models outperformed the baseline, with logistic regression achieving the highest test scores.
 
+![Logistic Regression](images/logistic_regression.png)
+This graph illustrates how the predicted probability of being classified as Inclusive varies with changes in lightness range, assuming the other model features are held constant.
+
+![Random Forest Feature Importance](images/random_forest.png)
+This graph illustrates the importance of various features in the Random Forest model. A longer bar indicates that the feature has a greater impact on the model's predictions. However, feature importance does not imply that the feature causes inclusivity.
+
+# Main Findings
+The analysis found a strong connection between a brand's shade-lightness characteristics and inclusivity targets. Logistic Regression performed best, achieving the highest cross-validation F1 score, indicating that shade lightness distribution effectively differentiates between classes in the dataset. However, results should be interpreted cautiously, as the target and predictors are based on shade lightness.
+
+Foundation inclusivity involves more than just the number of shades offered; the distribution of those shades across the lightness spectrum is crucial. Brands with a wider lightness range and more variation in their shades were more likely to be considered inclusive of deeper skin tones.
+
+Both machine-learning models identified patterns in the data, with Logistic Regression excelling. Factors like lightness range and variation among shades provide valuable insights into foundation shade diversity. However, the inclusivity label used in this project is based solely on shade data and does not fully reflect real-world inclusivity, as aspects like undertones, product availability, and customer experiences are also important.
+
+Evaluating foundation inclusivity should consider both the variety of shades available and their distribution across different skin tones. Having a greater variety of shades does not necessarily indicate a more inclusive shade range.
+
+# Limitations
+This project has several limitations:
+- The dataset includes only a limited number of brands.
+- The inclusivity label is a project-specific proxy and not an official measure.
+- Inclusivity encompasses more than lightness, such as undertones, product availability, geographic access, quality, and customer experience.
+- The models may be influenced by how the lightness-based target was constructed.
+- These models should not be used as a real-world rating system for makeup brands without more data and validation.
+
+# References
+Abelman, D., & Dall'Asen, N. (2020, June 28). 21 makeup brands that have the most inclusive foundation shade ranges. Allure. https://www.allure.com/gallery/makeup-brands-wide-foundation-shade-ranges
+Bansal, S. (n.d.). Makeup shades dataset [Data set]. Kaggle. https://www.kaggle.com/datasets/shivamb/makeup-shades-dataset
+Lang, C. (2017, November 16). Rihanna on building a beauty empire: "I'm going to push the boundaries in this industry." TIME. https://time.com/5026366/rihanna-fenty-beauty-best-inventions-2017/
+Sinks, T. (2018, November 10). What are drugstores doing to factor inclusivity into their makeup aisles? Allure. https://www.allure.com/story/drugstore-foundation-range-inclusivity-in-the-makeup-aisle
+
+# AI Usage Disclosure 
+I used ChatGPT by OpenAI to help with debugging, code organization, and writing support. I reviewed and edited the final code and explanations to make sure they matched the goals of this project.
+
+# [code](https://github.com/nvue4-lgtm/makeup_inclusivity/blob/main/makeup_inclusivity.ipynb)
