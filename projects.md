@@ -29,3 +29,6 @@ U.S. Census Bureau. (2024). American Community Survey 1-year data. U.S. Departme
 
 I used ChatGPT as a tool while working on this project. I used it to help troubleshoot errors in my Python code, understand how to retrieve and clean data from the U.S. Census API, and improve the organization of my visualizations. I reviewed the suggestions, tested the code myself, and edited the written responses to reflect my own understanding of the project and results.
 # [Code](https://github.com/nvue4-lgtm/poverty-fertility-analysis/blob/main/ResearchProject.ipynb)
+
+---
+## Project 2
