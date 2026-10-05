@@ -37,7 +37,7 @@ Outside of data science, I enjoy reading and trying new crafting hobbies. 🌸
 
 ### 📊 Projects
 
-Explore my data science projects, research questions, visualizations, and analyses.
+Explore my data science projects, visualizations, and analyses.
 
 <a class="button" href="projects.html">View Projects</a>
 
