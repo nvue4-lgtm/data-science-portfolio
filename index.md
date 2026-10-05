@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero" markdown="1">
 
 # Hi, I'm Nouchee! 🌼
 
@@ -20,7 +20,7 @@ I enjoy exploring data, creating visualizations, and using data to better unders
 
 ## 🌷 About Me
 
-<div class="about-box">
+<div class="about-box" markdown="1">
 
 I am currently a junior pursuing a **B.S. in Data Science at UNC Charlotte**.
 
@@ -34,7 +34,7 @@ Outside of data science, I enjoy reading and trying new crafting hobbies. 🌸
 
 <div class="portfolio-grid">
 
-<div class="portfolio-card">
+<div class="portfolio-card" markdown="1">
 
 ### 📊 Projects
 
@@ -60,7 +60,7 @@ Read my reflections and experiences as I continue learning data science.
 ✿ 🌼 ✿ 🌼 ✿
 </div>
 
-<div class="flower-box">
+<div class="flower-box" markdown="1">
 
 ### Thanks for visiting! 🌷
 
