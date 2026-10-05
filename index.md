@@ -9,6 +9,7 @@ Welcome to my little corner of data science. 🩵
 I enjoy exploring data, creating visualizations, and using data to better understand real-world questions.
 
 <a class="button" href="NV_Resume.pdf" target="_blank">My Resume</a>
+
 <a class="button" href="https://www.linkedin.com/in/noucheevue/" target="_blank">LinkedIn</a>
 
 </div>
