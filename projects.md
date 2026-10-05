@@ -1,6 +1,17 @@
-# Projects
-This section documents my data science projects, research questions, and data stories I create throughout the semesters.
----
+<div class="hero">
+
+# My Data Science Projects 🌼
+
+Here you'll find some of the projects I've created while exploring data, visualization, research, and machine learning.
+
+<a class="button" href="index.html">← Home</a>
+
+</div>
+
+<div class="flower-divider">
+🌷 ✿ 🩵 ✿ 🌷
+</div>
+
 ## Project 1
 # Poverty and Fertility Rates Across U.S. States (2007-2024) 
 ## How has the relationship between poverty and fertility rates across U.S. states changed from 2007 to 2024?
