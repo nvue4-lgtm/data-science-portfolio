@@ -12,8 +12,11 @@ Here you'll find some of the projects I've created while exploring data, visuali
 🌷 ✿ 🩵 ✿ 🌷
 </div>
 
-## Project 1
-# Poverty and Fertility Rates Across U.S. States (2007-2024) 
+<div class="project-label">Project 01 🌼</div>
+
+# Poverty and Fertility Rates Across U.S. States
+
+### 2007–2024 
 ## How has the relationship between poverty and fertility rates across U.S. states changed from 2007 to 2024?
 
 # Key Findings
@@ -39,10 +42,16 @@ U.S. Census Bureau. (2024). American Community Survey 1-year data. U.S. Departme
 ### AI Assistance Disclosure
 
 I used ChatGPT as a tool while working on this project. I used it to help troubleshoot errors in my Python code, understand how to retrieve and clean data from the U.S. Census API, and improve the organization of my visualizations. I reviewed the suggestions, tested the code myself, and edited the written responses to reflect my own understanding of the project and results.
-# [Code](https://github.com/nvue4-lgtm/poverty-fertility-analysis/blob/main/ResearchProject.ipynb)
+<a class="button" href="https://github.com/nvue4-lgtm/poverty-fertility-analysis/blob/main/ResearchProject.ipynb" target="_blank">
+View Project Code 💻
+</a>
 
----
-## Project 2
+<div class="flower-divider">
+🌼 ✿ 🌷 ✿ 🌼
+</div>
+
+<div class="project-label">Project 02 🌷</div>
+
 # Makeup Shade Inclusivity Classification
 ## Project Overview
 This project explores whether information about a makeup brand's foundation shade lineup can be used to predict whether the brand has a relatively inclusive range of deeper shades.
@@ -129,4 +138,17 @@ Sinks, T. (2018, November 10). What are drugstores doing to factor inclusivity i
 # AI Usage Disclosure 
 I used ChatGPT by OpenAI to help with debugging, code organization, and writing support. I reviewed and edited the final code and explanations to make sure they matched the goals of this project.
 
-# [code](https://github.com/nvue4-lgtm/makeup_inclusivity/blob/main/makeup_inclusivity.ipynb)
+<a class="button" href="https://github.com/nvue4-lgtm/makeup_inclusivity/blob/main/makeup_inclusivity.ipynb" target="_blank">
+View Project Code 💻
+</a>
+<div class="flower-divider">
+✿ 🩵 🌼 🩵 ✿
+</div>
+
+<div class="flower-box">
+
+### More projects coming soon 🌱
+
+I'm continuing to grow my data science skills one project at a time.
+
+</div>
