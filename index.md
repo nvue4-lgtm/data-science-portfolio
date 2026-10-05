@@ -46,7 +46,7 @@ Explore my data science projects, visualizations, and analyses.
 
 <div class="portfolio-card" markdown="1">
 
-### 🌼 Blog
+## 🌼 Blog
 
 Read my reflections and experiences as I continue learning data science.
 
