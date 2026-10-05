@@ -44,7 +44,7 @@ Explore my data science projects, visualizations, and analyses.
 
 </div>
 
-<div class="portfolio-card">
+<div class="portfolio-card" markdown="1">
 
 ### 🌼 Blog
 
@@ -56,7 +56,7 @@ Read my reflections and experiences as I continue learning data science.
 
 </div>
 
-<div class="flower-divider">
+<div class="flower-divider" markdown="1">
 ✿ 🌼 ✿ 🌼 ✿
 </div>
 
