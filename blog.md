@@ -8,7 +8,7 @@ Thoughts, reflections, and things I'm learning along the way.
 
 </div>
 
-<div class="flower-divider">
+<div class="flower-divider" markdown="1">
 🌼 ✿ 🩵 ✿ 🌼
 </div>
 
